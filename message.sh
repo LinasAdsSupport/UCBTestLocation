@@ -16,7 +16,6 @@ echo " FIREBASE_TOKEN parameter must be set to the Firebase authorization token.
 echo " FIREBASE_APP_ID parameter must be set to the Firebase App Id for this build"
 echo " FIREBASE_GROUPS comma separated list of firebase groups to send build to"
 echo " BUILD_FILE_NAME name of the build file e.g. 'wormhole.apk'"
-exit 1
 }
 if [ -z $FIREBASE_TOKEN ]
 then
