@@ -51,7 +51,6 @@ echo "==========================================================================
 echo "Checking settings"
 echo "================================================================================"
 BUILD_OUTPUT_PATH=${1}
-UNITY_PLAYER_PATH=${2}
 BUILD_TARGET=${3}
 BUILD_PLATFORM=${4}
 echo BUILD_OUTPUT_PATH=$BUILD_OUTPUT_PATH
