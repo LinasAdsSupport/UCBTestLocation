@@ -50,9 +50,6 @@ fi
 echo "================================================================================"
 echo "Checking settings"
 echo "================================================================================"
-BUILD_OUTPUT_PATH=${1}
-BUILD_TARGET=${3}
-BUILD_PLATFORM=${4}
 echo BUILD_OUTPUT_PATH=$BUILD_OUTPUT_PATH
 echo UNITY_PLAYER_PATH=$UNITY_PLAYER_PATH
 echo BUILD_TARGET=$BUILD_TARGET
@@ -61,11 +58,8 @@ echo "Node version: $(npm -v)"
 echo "NPM version $(npm -v)"
 echo "NPX version $(npx -v)"
 echo "Uploading to Firebase"
-echo "FIREBASE_APP_ID=$FIREBASE_APP_ID"
 echo "FIREBASE_GROUPS=$FIREBASE_GROUPS"
 echo "BUILD_FILE_NAME=$BUILD_FILE_NAME"
 echo "BUILD_NUMBER=$BUILD_NUMBER"
 echo "FIREBASE_APP_ID=$FIREBASE_APP_ID"
-echo "FIREBASE_APP_ID=$FIREBASE_APP_ID"
-echo "UNITY_PLAYER_PATH=$UNITY_PLAYER_PATH"
 echo "HERE IS THE UNITY_PLAYER_PATH ${UNITY_PLAYER_PATH}"
